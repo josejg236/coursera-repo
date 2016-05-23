@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h1 {
+	font-size: 175%;
+	text-align: center;
+}
+.menu-container{
+	float: left;
+	padding: 10px 10px 0px 10px;
+}
+.menu {
+	background: grey;
+	border: 2px solid black;
+}
+.menu-title {
+	float: right;
+	text-align: center;
+	width: 25%;
+	font-size: 125%;
+	border: 2px solid black;
+}
+.menu-body {
+	padding: 35px 10px 10px 10px;
+}
+#chicken-menu .menu-title {
+	color: white;
+	background: green;
+}
+#beef-menu .menu-title {
+	color: red;
+	background: yellow;
+}
+#sushi-menu .menu-title {
+	color: pink;
+	background: blue;
+}
+
+/*
+ * Desktop Mode
+ */
+@media (min-width:992px) {
+.col-lg-4 {
+	width: 33.33%;
+}
+}
+
+/*
+ * Tablet Mode
+ */
+@media (min-width:768px) and (max-width:991px) {
+.col-md-6 {
+	width: 50%;
+}
+.col-md-12 {
+	width: 100%;
+}
+.col-md-12 .menu-title {
+	width: 12.5%
+}
+}
+
+/*
+ * Mobile Mode
+ */
+@media (max-width:767px) {
+.col-sm-12 {
+	width: 100%;
+}
+}
