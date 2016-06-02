@@ -2,34 +2,92 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Design Assignment</title>
+
+<title>Assignment 3</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<h1>My Menu</h1>
-<div class="menus">
-	<div class="menu-container col-lg-4 col-md-6 col-sm-12">
-	<section id="chicken-menu" class="menu">
-		<div class="menu-title">Chicken</div>
-		<p class="menu-body">The chicken (Gallus gallus domesticus) is a domesticated fowl, a subspecies of the red junglefowl. There are more chickens in the world than any other species of bird or domestic animal.</p>
-	</section>
-	</div>
+<header>
+	<nav id="header-nav" class="navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="index.html" class="pull-left">Food, LLC</a>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	            </button>
+	       	</div>
+	       	<div id="collapsable-nav" class="collapse navbar-collapse">
+       			<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+       				<li class="text-center">Chicken</li><hr>
+       				<li class="text-center">Beef</li><hr>
+       				<li class="text-center">Sushi</li>
+       			</ul>
+	       	</div>
+		</div><!-- Container for the navbar -->
+	</nav>
+</header>
 
-	<div class="menu-container col-lg-4 col-md-6 col-sm-12">
-	<section id="beef-menu" class="menu">
-		<div class="menu-title">Beef</div>
-		<p class="menu-body">Beef is the culinary name for meat from cattle. Beef can be harvested from bulls, heifers or steers. Its acceptability as a food source varies in different parts of the world.</p>
-	</section>
-	</div>
-
-	<div class="menu-container col-lg-4 col-md-12 col-sm-12">
-	<section id="sushi-menu" class="menu">
-		<div class="menu-title">Sushi</div>
-		<p class="menu-body">Sushi is a food preparation originating in Japan, consisting of cooked vinegared rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits.</p>
-	</section>
+<h1 class="text-center">My Menu</h1>
+<div id="main-section" class="container">
+	<div id="menu-tiles" class="row">
+		<section class="chicken col-xs-12">
+			<div class="menu-title">Chicken</div>
+			<p>
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			This is the filler text for the Chicken section.
+			</p>
+		</section>
+		<section class="beef col-xs-12">
+			<div class="menu-title">Beef</div>
+			<p>
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			This is the filler text for the Beef section.
+			</p>
+		</section>
+		<section class="sushi col-xs-12">
+			<div class="menu-title">Sushi</div>
+			<p>
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			This is the filler text for the Sushi section.
+			</p>
+		</section>
 	</div>
 </div>
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
